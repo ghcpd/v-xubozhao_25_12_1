@@ -1,0 +1,19 @@
+# Modern, stable dependencies compatible with Python 3.10+
+# Upgraded from requirements_old.txt
+# Flexible versioning for compatibility across Python versions
+
+# Data Science & ML Stack
+numpy>=2.0,<3.0            # Latest 2.x stable, excellent py3.10+ support, security updates
+pandas>=2.2.0,<3.0         # Latest 2.x stable, full py3.10+ support, optimized performance
+scikit-learn>=1.5.0,<2.0   # Latest 1.x stable, modern ML capabilities, security patches
+scipy>=1.14.0,<2.0         # Latest 1.x stable, py3.10+ optimized
+matplotlib>=3.9.0,<4.0     # Latest 3.x stable with improved rendering
+
+# Web Framework Stack
+fastapi>=0.110.0           # Latest stable, Pydantic v2 support, async improvements
+uvicorn>=0.30.0            # Latest stable, better performance, modern Python support
+httpx>=0.25.0              # HTTP client for FastAPI testing (TestClient dependency)
+
+# Testing
+pytest>=7.4.0              # Latest stable, excellent plugin ecosystem
+pytest-cov>=6.0.0          # Coverage reporting (new addition for better testing)
