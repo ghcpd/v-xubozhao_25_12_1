@@ -1,0 +1,14 @@
+# Upgraded, Python 3.10+ (and CPython 3.13) compatible pins for reproducible environment
+numpy==2.3.5
+pandas==2.3.3
+scikit-learn==1.6.0
+scipy==1.16.3
+matplotlib==3.10.0
+pytest==7.4.0
+fastapi==0.95.2
+uvicorn==0.22.0
+# httpx is required by FastAPI TestClient
+httpx==0.24.1
+# Optional: pin wheel and setuptools for reproducibility
+setuptools==80.9.0
+wheel==0.45.1
