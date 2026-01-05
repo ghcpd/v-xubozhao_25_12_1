@@ -1,0 +1,11 @@
+# Pinned dependencies for Python 3.10+
+# Chosen for compatibility across scientific/ML stack and FastAPI stack
+numpy==1.26.4
+scipy==1.11.4
+pandas==2.2.2
+scikit-learn==1.4.2
+matplotlib==3.8.4
+pytest==8.2.0
+fastapi==0.115.6
+uvicorn[standard]==0.30.6
+httpx==0.27.2
